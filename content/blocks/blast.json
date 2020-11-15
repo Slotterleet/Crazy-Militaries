@@ -1,0 +1,25 @@
+{
+  "ammoTypes": {
+    "thorium": {
+      "type": "ShrapnelBulletType", 
+      "damage": 105,
+      "length": 55,
+      "ammoMultiplier": 1
+    }
+  },
+  "range": 45,
+  "size": 3,
+  "reloadTime": 35,
+  "shootShake": 6,
+  "shots": 8,
+  "spread": 45,
+  "health": 2700,
+  "shootSound": "shotgun",
+  "requirements": [
+    {"item": "copper", "amount": 250},
+    {"item": "graphite", "amount": 325},
+    {"item": "thorium", "amount": 150}
+  ],
+  "category": "turret",
+  "research": "fuse"
+}

@@ -1,0 +1,33 @@
+{
+  "type": "UnitFactory",
+  "size": 3,
+  "consumes": {
+    "power": 3
+  },
+  "plans": [
+    {
+      "unit": "former",
+      "requirements": [
+        {"item": "silicon", "amount": 250},
+        {"item": "lead", "amount": 100},
+        {"item": "titanium", "amount": 125}
+      ],
+      "time": 1600
+    },
+    {
+      "unit": "zapper",
+      "requirements": [
+        {"item": "silicon", "amount": 60},
+        {"item": "titanium", "amount": 40}
+      ],
+      "time": 900
+    }
+  ],
+  "requirements": [
+    {"item": "lead", "amount": 100},
+    {"item": "graphite", "amount": 75},
+    {"item": "silicon", "amount": 200}
+  ],
+  "category": "units",
+  "research": "ground-factory"
+}

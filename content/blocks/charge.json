@@ -1,0 +1,30 @@
+{
+  "type": "PowerTurret",
+  "shootType": {
+    "type": "LaserBoltBulletType",
+    "speed": 3.5,
+    "lifetime": 50,
+    "damage": 24,
+    "backColor": "a9d8ff",
+    "frontColor": "ffffff",
+    "hitEffect": "hitLancer",
+    "despawnEffect": "none"
+  },
+  "reloadTime": 38,
+  "rotateSpeed": 8,
+  "powerUse": 4,
+  "range": 150,
+  "shots": 4,
+  "burstSpacing": 3,
+  "recoilAmount": 1,
+  "shootSound": "pew",
+  "size": 2,
+  "health": 1600,
+  "requirements": [
+    {"item": "copper", "amount": 40},
+    {"item": "lead", "amount": 75},
+    {"item": "silicon", "amount": 60}
+  ],
+  "category": "turret",
+  "research": "lancer"
+}

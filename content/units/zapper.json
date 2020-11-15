@@ -1,0 +1,23 @@
+{
+  "type": "UnitEntity",
+  "flying": true,
+  "health": 330,
+  "speed": 3,
+  "drag": 0.001,
+  "weapons": [
+    {
+      "name": "zapper-equip",
+      "x": 2,
+      "y": 0.5,
+      "reloadTime": 50,
+      "alternate": true,
+      "ejectEffect": "none",
+      "bullet": {
+        "type": "LightningBulletType",
+        "damage": 24,
+        "lightningLength": 25
+      }
+    }
+  ],
+  "research": "crazy-unit-factory"
+}
